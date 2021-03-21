@@ -1,0 +1,1285 @@
+16 Mar 2021 14:09:21,927 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 14:09:21,934 TRACE repository.ChildRepository 81 save - Enter Saving Child model.Child@6f46426d 
+16 Mar 2021 14:09:21,935 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:09:21,935 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 14:09:21,935 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 14:09:21,935 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 14:09:21,936 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 14:09:22,576 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:09:22,857 TRACE repository.ChildRepository 89 save - Saved 1 instances
+16 Mar 2021 14:09:22,857 TRACE repository.ChildRepository 94 save - Exit
+16 Mar 2021 14:09:22,858 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 14:09:22,858 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:09:22,859 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:09:22,860 TRACE repository.ChildRepository 73 findAll - Exit with([model.Child@d737b89, model.Child@8519cb4, model.Child@35dab4eb])
+16 Mar 2021 14:09:22,860 TRACE repository.ChildRepository 101 delete - Enter Deleting Child with id 3
+16 Mar 2021 14:09:22,861 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:09:22,861 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:09:22,861 TRACE repository.ChildRepository 30 findOne - Enter
+16 Mar 2021 14:09:22,862 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:09:22,862 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:09:22,862 TRACE repository.ChildRepository 47 findOne - Exit with(model.Child@2d901eb0)
+16 Mar 2021 14:10:53,675 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 14:10:53,683 TRACE repository.ChildRepository 81 save - Enter Saving Child model.Child@6f46426d 
+16 Mar 2021 14:10:53,683 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:10:53,684 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 14:10:53,684 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 14:10:53,685 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 14:10:53,685 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 14:10:53,951 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:10:54,140 TRACE repository.ChildRepository 89 save - Saved 1 instances
+16 Mar 2021 14:10:54,140 TRACE repository.ChildRepository 94 save - Exit
+16 Mar 2021 14:10:54,141 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 14:10:54,141 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:10:54,141 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:10:54,142 TRACE repository.ChildRepository 73 findAll - Exit with([model.Child@d737b89, model.Child@8519cb4, model.Child@35dab4eb])
+16 Mar 2021 14:10:54,142 TRACE repository.ChildRepository 101 delete - Enter Deleting Child with id 3
+16 Mar 2021 14:10:54,142 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:10:54,142 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:10:54,143 TRACE repository.ChildRepository 30 findOne - Enter
+16 Mar 2021 14:10:54,143 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:10:54,143 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:10:54,145 ERROR repository.ChildRepository 44 findOne - java.sql.SQLException: ResultSet closed
+16 Mar 2021 14:10:54,145 TRACE repository.ChildRepository 47 findOne - Exit with(model.Child@909217e)
+16 Mar 2021 14:10:54,145 TRACE repository.ChildRepository 109 delete - Deleted 0 instances
+16 Mar 2021 14:10:54,146 TRACE repository.ChildRepository 114 delete - Exit
+16 Mar 2021 14:12:03,444 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 14:12:03,452 TRACE repository.ChildRepository 81 save - Enter Saving Child model.Child@6f46426d 
+16 Mar 2021 14:12:03,453 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:12:03,453 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 14:12:03,454 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 14:12:03,454 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 14:12:03,455 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 14:12:03,711 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:12:03,881 TRACE repository.ChildRepository 89 save - Saved 1 instances
+16 Mar 2021 14:12:03,882 TRACE repository.ChildRepository 94 save - Exit
+16 Mar 2021 14:12:03,883 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 14:12:03,883 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:12:03,884 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:12:03,885 TRACE repository.ChildRepository 73 findAll - Exit with([model.Child@d737b89, model.Child@8519cb4, model.Child@35dab4eb])
+16 Mar 2021 14:12:03,886 TRACE repository.ChildRepository 101 delete - Enter Deleting Child with id 3
+16 Mar 2021 14:12:03,886 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:12:03,887 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:12:03,887 TRACE repository.ChildRepository 30 findOne - Enter
+16 Mar 2021 14:12:03,887 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:12:03,888 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:12:03,890 ERROR repository.ChildRepository 44 findOne - java.sql.SQLException: ResultSet closed
+16 Mar 2021 14:12:03,891 TRACE repository.ChildRepository 47 findOne - Exit with(model.Child@909217e)
+16 Mar 2021 14:12:03,891 TRACE repository.ChildRepository 109 delete - Deleted 0 instances
+16 Mar 2021 14:12:03,892 TRACE repository.ChildRepository 114 delete - Exit
+16 Mar 2021 14:17:15,115 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 14:17:15,126 TRACE repository.ChildRepository 81 save - Enter Saving Child model.Child@6f46426d 
+16 Mar 2021 14:17:15,127 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:17:15,128 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 14:17:15,129 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 14:17:15,130 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 14:17:15,130 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 14:17:15,357 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:17:15,547 TRACE repository.ChildRepository 89 save - Saved 1 instances
+16 Mar 2021 14:17:15,548 TRACE repository.ChildRepository 94 save - Exit
+16 Mar 2021 14:17:15,549 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 14:17:15,549 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:17:15,549 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:17:15,551 TRACE repository.ChildRepository 73 findAll - Exit with([model.Child@d737b89, model.Child@8519cb4, model.Child@35dab4eb])
+16 Mar 2021 14:22:24,173 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 14:22:24,179 TRACE repository.ChildRepository 81 save - Enter Saving Child model.Child@6f46426d 
+16 Mar 2021 14:22:24,180 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:22:24,180 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 14:22:24,180 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 14:22:24,181 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 14:22:24,181 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 14:22:24,405 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:22:24,663 TRACE repository.ChildRepository 89 save - Saved 1 instances
+16 Mar 2021 14:22:24,664 TRACE repository.ChildRepository 94 save - Exit
+16 Mar 2021 14:22:24,665 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 14:22:24,665 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:22:24,665 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+16 Mar 2021 14:22:24,667 TRACE repository.ChildRepository 73 findAll - Exit with([model.Child@d737b89, model.Child@8519cb4, model.Child@35dab4eb, model.Child@2d901eb0])
+16 Mar 2021 14:22:39,462 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 14:22:39,468 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 14:22:39,468 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:22:39,468 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 14:22:39,469 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 14:22:39,469 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 14:22:39,469 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 14:22:39,725 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+16 Mar 2021 14:22:39,728 TRACE repository.ChildRepository 73 findAll - Exit with([model.Child@1349883, model.Child@4b29d1d2, model.Child@7f485fda, model.Child@28261e8e])
+16 Mar 2021 14:23:11,138 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 14:23:11,144 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 14:23:11,144 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:23:11,144 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 14:23:11,145 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 14:23:11,145 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 14:23:11,145 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 14:23:11,338 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+16 Mar 2021 14:23:11,344 TRACE repository.ChildRepository 73 findAll - Exit with([model.Child@1349883, model.Child@4b29d1d2, model.Child@7f485fda, model.Child@28261e8e])
+16 Mar 2021 14:29:48,704 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 14:29:48,709 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 14:29:48,709 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:29:48,709 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 14:29:48,710 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 14:29:48,710 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 14:29:48,710 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 14:29:48,898 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+16 Mar 2021 14:29:48,910 TRACE repository.ChildRepository 73 findAll - Exit with([1 Marius 10, 2 Adrian 11, 7 Alin 12, 8 Alin 12])
+16 Mar 2021 14:30:44,294 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 14:30:44,303 TRACE repository.ChildRepository 101 delete - Enter Deleting Child with id 7
+16 Mar 2021 14:30:44,303 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:30:44,304 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 14:30:44,304 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 14:30:44,304 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 14:30:44,305 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 14:30:44,529 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+16 Mar 2021 14:30:44,531 TRACE repository.ChildRepository 30 findOne - Enter
+16 Mar 2021 14:30:44,532 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:30:44,533 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+16 Mar 2021 14:30:44,539 TRACE repository.ChildRepository 47 findOne - Exit with(7 Alin 12)
+16 Mar 2021 14:30:44,765 TRACE repository.ChildRepository 101 delete - Enter Deleting Child with id 8
+16 Mar 2021 14:30:44,765 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:30:44,766 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+16 Mar 2021 14:30:44,767 TRACE repository.ChildRepository 30 findOne - Enter
+16 Mar 2021 14:30:44,768 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:30:44,771 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+16 Mar 2021 14:30:44,773 TRACE repository.ChildRepository 47 findOne - Exit with(8 Alin 12)
+16 Mar 2021 14:30:44,921 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 14:30:44,921 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:30:44,921 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+16 Mar 2021 14:30:44,922 TRACE repository.ChildRepository 73 findAll - Exit with([1 Marius 10, 2 Adrian 11])
+16 Mar 2021 14:31:33,741 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 14:31:33,747 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 14:31:33,747 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:31:33,747 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 14:31:33,747 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 14:31:33,748 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 14:31:33,748 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 14:31:34,010 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+16 Mar 2021 14:31:34,017 TRACE repository.ChildRepository 73 findAll - Exit with([1 Marius 10, 2 Adrian 11])
+16 Mar 2021 14:31:34,017 TRACE repository.ChildRepository 163 exists - Enter Verifing ... 
+16 Mar 2021 14:31:34,018 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:31:34,018 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+16 Mar 2021 14:31:43,480 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 14:31:43,485 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 14:31:43,485 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:31:43,486 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 14:31:43,486 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 14:31:43,486 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 14:31:43,487 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 14:31:43,682 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+16 Mar 2021 14:31:43,690 TRACE repository.ChildRepository 73 findAll - Exit with([1 Marius 10, 2 Adrian 11])
+16 Mar 2021 14:31:43,691 TRACE repository.ChildRepository 163 exists - Enter Verifing ... 
+16 Mar 2021 14:31:43,692 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:31:43,692 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+16 Mar 2021 14:31:43,705 ERROR repository.ChildRepository 174 exists - java.sql.SQLException: ResultSet closed
+16 Mar 2021 14:31:43,706 TRACE repository.ChildRepository 177 exists - Exit
+16 Mar 2021 14:32:43,248 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 14:32:43,253 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 14:32:43,253 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:32:43,253 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 14:32:43,254 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 14:32:43,254 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 14:32:43,254 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 14:32:43,471 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+16 Mar 2021 14:32:43,479 TRACE repository.ChildRepository 73 findAll - Exit with([1 Marius 10, 2 Adrian 11])
+16 Mar 2021 14:32:43,480 TRACE repository.ChildRepository 143 count - Enter Counting ...
+16 Mar 2021 14:32:43,480 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:32:43,480 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+16 Mar 2021 14:32:43,481 TRACE repository.ChildRepository 149 count - Counted children
+16 Mar 2021 14:32:43,481 TRACE repository.ChildRepository 155 count - Exit with(2)
+16 Mar 2021 14:36:23,882 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 14:36:23,895 TRACE repository.ChildRepository 81 save - Enter Saving Child null Alin 12 
+16 Mar 2021 14:36:23,895 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:36:23,896 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 14:36:23,896 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 14:36:23,897 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 14:36:23,897 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 14:36:24,118 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 14:36:24,294 TRACE repository.ChildRepository 89 save - Saved 1 instances
+16 Mar 2021 14:36:24,294 TRACE repository.ChildRepository 94 save - Exit
+16 Mar 2021 14:36:24,294 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 14:36:24,295 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:36:24,295 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 14:36:24,296 TRACE repository.ChildRepository 73 findAll - Exit with([1 Adrian 10, 2 Marius 9, 3 Alin 12])
+16 Mar 2021 14:36:24,297 TRACE repository.ChildRepository 101 delete - Enter Deleting Child with id 3
+16 Mar 2021 14:36:24,297 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:36:24,297 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 14:36:24,297 TRACE repository.ChildRepository 30 findOne - Enter
+16 Mar 2021 14:36:24,298 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:36:24,298 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 14:36:24,298 TRACE repository.ChildRepository 47 findOne - Exit with(3 Alin 12)
+16 Mar 2021 14:36:24,385 TRACE repository.ChildRepository 143 count - Enter Counting ...
+16 Mar 2021 14:36:24,385 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:36:24,386 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 14:36:24,386 TRACE repository.ChildRepository 149 count - Counted children
+16 Mar 2021 14:36:24,386 TRACE repository.ChildRepository 155 count - Exit with(2)
+16 Mar 2021 14:36:38,673 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 14:36:38,684 TRACE repository.ChildRepository 81 save - Enter Saving Child null Alin 12 
+16 Mar 2021 14:36:38,684 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:36:38,684 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 14:36:38,685 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 14:36:38,685 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 14:36:38,686 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 14:36:38,917 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 14:36:39,085 TRACE repository.ChildRepository 89 save - Saved 1 instances
+16 Mar 2021 14:36:39,086 TRACE repository.ChildRepository 94 save - Exit
+16 Mar 2021 14:36:39,086 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 14:36:39,086 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:36:39,087 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 14:36:39,087 TRACE repository.ChildRepository 73 findAll - Exit with([1 Adrian 10, 2 Marius 9, 4 Alin 12])
+16 Mar 2021 14:36:39,088 TRACE repository.ChildRepository 143 count - Enter Counting ...
+16 Mar 2021 14:36:39,089 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 14:36:39,089 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 14:36:39,089 TRACE repository.ChildRepository 149 count - Counted children
+16 Mar 2021 14:36:39,090 TRACE repository.ChildRepository 155 count - Exit with(3)
+16 Mar 2021 19:04:20,597 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 19:04:20,620 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 19:04:20,621 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:04:20,621 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 19:04:20,621 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 19:04:20,621 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 19:04:20,622 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 19:04:20,898 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+16 Mar 2021 19:04:20,904 TRACE repository.ChildRepository 73 findAll - Exit with([1 Adrian 10, 2 Marius 9, 4 Alin 12])
+16 Mar 2021 19:04:20,905 TRACE repository.ChildRepository 143 count - Enter Counting ...
+16 Mar 2021 19:04:20,906 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:04:20,906 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+16 Mar 2021 19:04:20,907 TRACE repository.ChildRepository 149 count - Counted children
+16 Mar 2021 19:04:20,907 TRACE repository.ChildRepository 155 count - Exit with(3)
+16 Mar 2021 19:07:02,977 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 19:07:02,991 TRACE repository.ChildRepository 121 update - Enter Update Child 1 Adrian 11 
+16 Mar 2021 19:07:02,991 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:07:03,033 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 19:07:03,034 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 19:07:03,034 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 19:07:03,035 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 19:07:03,272 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:07:03,426 TRACE repository.ChildRepository 130 update - Updates 1 instances
+16 Mar 2021 19:07:03,427 TRACE repository.ChildRepository 135 update - Exit
+16 Mar 2021 19:07:03,427 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 19:07:03,427 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:07:03,428 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:07:03,428 TRACE repository.ChildRepository 73 findAll - Exit with([1 Adrian 11, 2 Marius 9, 4 Alin 12])
+16 Mar 2021 19:07:03,429 TRACE repository.ChildRepository 143 count - Enter Counting ...
+16 Mar 2021 19:07:03,429 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:07:03,430 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:07:03,430 TRACE repository.ChildRepository 149 count - Counted children
+16 Mar 2021 19:07:03,430 TRACE repository.ChildRepository 155 count - Exit with(3)
+16 Mar 2021 19:07:45,274 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 19:07:45,288 TRACE repository.ChildRepository 121 update - Enter Update Child 1 Adrian 11 
+16 Mar 2021 19:07:45,288 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:07:45,289 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 19:07:45,289 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 19:07:45,289 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 19:07:45,290 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 19:07:45,501 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:07:45,504 TRACE repository.ChildRepository 130 update - Updates 1 instances
+16 Mar 2021 19:07:45,504 TRACE repository.ChildRepository 135 update - Exit
+16 Mar 2021 19:07:45,505 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 19:07:45,505 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:07:45,505 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:07:45,506 TRACE repository.ChildRepository 73 findAll - Exit with([1 Adrian 11, 2 Marius 9, 4 Alin 12])
+16 Mar 2021 19:07:45,507 TRACE repository.ChildRepository 30 findOne - Enter
+16 Mar 2021 19:07:45,507 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:07:45,507 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:07:45,508 TRACE repository.ChildRepository 47 findOne - Exit with(4 Alin 12)
+16 Mar 2021 19:07:45,508 TRACE repository.ChildRepository 143 count - Enter Counting ...
+16 Mar 2021 19:07:45,508 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:07:45,509 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:07:45,509 TRACE repository.ChildRepository 149 count - Counted children
+16 Mar 2021 19:07:45,510 TRACE repository.ChildRepository 155 count - Exit with(3)
+16 Mar 2021 19:08:12,319 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 19:08:12,330 TRACE repository.ChildRepository 121 update - Enter Update Child 1 Adrian 11 
+16 Mar 2021 19:08:12,331 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:08:12,332 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 19:08:12,332 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 19:08:12,333 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 19:08:12,334 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 19:08:12,596 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:08:12,600 TRACE repository.ChildRepository 130 update - Updates 1 instances
+16 Mar 2021 19:08:12,600 TRACE repository.ChildRepository 135 update - Exit
+16 Mar 2021 19:08:12,601 TRACE repository.ChildRepository 55 findAll - Enter
+16 Mar 2021 19:08:12,601 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:08:12,601 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:08:12,602 TRACE repository.ChildRepository 73 findAll - Exit with([1 Adrian 11, 2 Marius 9, 4 Alin 12])
+16 Mar 2021 19:08:12,603 TRACE repository.ChildRepository 30 findOne - Enter
+16 Mar 2021 19:08:12,603 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:08:12,604 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:08:12,606 ERROR repository.ChildRepository 44 findOne - java.sql.SQLException: ResultSet closed
+16 Mar 2021 19:08:12,607 TRACE repository.ChildRepository 47 findOne - Exit with(null  0)
+16 Mar 2021 19:08:12,607 TRACE repository.ChildRepository 143 count - Enter Counting ...
+16 Mar 2021 19:08:12,607 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:08:12,608 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:08:12,608 TRACE repository.ChildRepository 149 count - Counted children
+16 Mar 2021 19:08:12,608 TRACE repository.ChildRepository 155 count - Exit with(3)
+16 Mar 2021 19:18:53,801 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 19:18:53,827 TRACE repository.ChildRepository 123 update - Enter Update Child 1 Adrian 11 
+16 Mar 2021 19:18:53,827 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:18:53,828 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 19:18:53,828 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 19:18:53,829 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 19:18:53,830 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 19:18:54,140 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:18:54,145 TRACE repository.ChildRepository 132 update - Updates 1 instances
+16 Mar 2021 19:18:54,146 TRACE repository.ChildRepository 137 update - Exit
+16 Mar 2021 19:18:54,146 TRACE repository.ChildRepository 57 findAll - Enter
+16 Mar 2021 19:18:54,147 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:18:54,147 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:18:54,154 TRACE repository.ChildRepository 75 findAll - Exit with([1 Adrian 11, 2 Marius 9, 4 Alin 12])
+16 Mar 2021 19:18:54,157 TRACE repository.ChildRepository 30 findOne - Enter
+16 Mar 2021 19:18:54,157 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:18:54,158 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:18:54,158 TRACE repository.ChildRepository 49 findOne - Exit with(null  0)
+16 Mar 2021 19:18:54,159 TRACE repository.ChildRepository 145 count - Enter Counting ...
+16 Mar 2021 19:18:54,159 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:18:54,159 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:18:54,160 TRACE repository.ChildRepository 151 count - Counted children
+16 Mar 2021 19:18:54,160 TRACE repository.ChildRepository 157 count - Exit with(3)
+16 Mar 2021 19:20:04,560 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 19:20:04,572 TRACE repository.ChildRepository 124 update - Enter Update Child 1 Adrian 11 
+16 Mar 2021 19:20:04,572 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:20:04,573 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 19:20:04,573 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 19:20:04,573 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 19:20:04,574 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 19:20:04,826 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:20:04,830 TRACE repository.ChildRepository 133 update - Updates 1 instances
+16 Mar 2021 19:20:04,830 TRACE repository.ChildRepository 138 update - Exit
+16 Mar 2021 19:20:04,831 TRACE repository.ChildRepository 58 findAll - Enter
+16 Mar 2021 19:20:04,831 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:20:04,831 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:20:04,833 TRACE repository.ChildRepository 76 findAll - Exit with([1 Adrian 11, 2 Marius 9, 4 Alin 12])
+16 Mar 2021 19:20:04,835 TRACE repository.ChildRepository 30 findOne - Enter
+16 Mar 2021 19:20:04,835 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:20:04,836 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:20:04,837 TRACE repository.ChildRepository 146 count - Enter Counting ...
+16 Mar 2021 19:20:04,837 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:20:04,838 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:20:04,839 TRACE repository.ChildRepository 152 count - Counted children
+16 Mar 2021 19:20:04,840 TRACE repository.ChildRepository 158 count - Exit with(3)
+16 Mar 2021 19:25:27,033 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 19:25:27,061 TRACE repository.ChildRepository 124 update - Enter Update Child 1 Adrian 11 
+16 Mar 2021 19:25:27,062 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:25:27,062 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 19:25:27,062 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 19:25:27,063 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 19:25:27,063 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 19:25:27,343 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:25:27,346 TRACE repository.ChildRepository 133 update - Updates 1 instances
+16 Mar 2021 19:25:27,347 TRACE repository.ChildRepository 138 update - Exit
+16 Mar 2021 19:25:27,349 TRACE repository.ChildRepository 58 findAll - Enter
+16 Mar 2021 19:25:27,350 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:25:27,352 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:25:27,355 TRACE repository.ChildRepository 76 findAll - Exit with([1 Adrian 11, 2 Marius 9, 4 Alin 12])
+16 Mar 2021 19:25:27,355 TRACE repository.ChildRepository 104 delete - Enter Deleting Child with id 3
+16 Mar 2021 19:25:27,356 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:25:27,356 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:25:27,356 TRACE repository.ChildRepository 30 findOne - Enter
+16 Mar 2021 19:25:27,356 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:25:27,356 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:25:27,357 TRACE repository.ChildRepository 112 delete - Deleted 0 instances
+16 Mar 2021 19:25:27,357 TRACE repository.ChildRepository 117 delete - Exit
+16 Mar 2021 19:25:27,358 TRACE repository.ChildRepository 146 count - Enter Counting ...
+16 Mar 2021 19:25:27,358 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:25:27,358 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:25:27,359 TRACE repository.ChildRepository 152 count - Counted children
+16 Mar 2021 19:25:27,359 TRACE repository.ChildRepository 158 count - Exit with(3)
+16 Mar 2021 19:26:50,225 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+16 Mar 2021 19:26:50,236 TRACE repository.ChildRepository 124 update - Enter Update Child 1 Adrian 11 
+16 Mar 2021 19:26:50,236 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:26:50,237 TRACE utils.Jdbc 24 getNewConnection - Enter
+16 Mar 2021 19:26:50,237 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+16 Mar 2021 19:26:50,238 INFO  utils.Jdbc 30 getNewConnection - user: null
+16 Mar 2021 19:26:50,238 INFO  utils.Jdbc 31 getNewConnection - password: null
+16 Mar 2021 19:26:50,478 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:26:50,490 TRACE repository.ChildRepository 133 update - Updates 1 instances
+16 Mar 2021 19:26:50,492 TRACE repository.ChildRepository 138 update - Exit
+16 Mar 2021 19:26:50,493 TRACE repository.ChildRepository 58 findAll - Enter
+16 Mar 2021 19:26:50,493 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:26:50,493 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:26:50,495 TRACE repository.ChildRepository 76 findAll - Exit with([1 Adrian 11, 2 Marius 9, 4 Alin 12])
+16 Mar 2021 19:26:50,496 TRACE repository.ChildRepository 166 exists - Enter Verifing ... 
+16 Mar 2021 19:26:50,496 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:26:50,496 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:26:50,497 TRACE repository.ChildRepository 182 exists - Exit
+16 Mar 2021 19:26:50,498 TRACE repository.ChildRepository 146 count - Enter Counting ...
+16 Mar 2021 19:26:50,499 TRACE utils.Jdbc 46 getConnection - Enter
+16 Mar 2021 19:26:50,499 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 19:26:50,500 TRACE repository.ChildRepository 152 count - Counted children
+16 Mar 2021 19:26:50,500 TRACE repository.ChildRepository 158 count - Exit with(3)
+17 Mar 2021 01:21:06,229 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 01:21:06,309 TRACE repository.ChildRepository 124 update - Enter Update Child Child{id= 1 name='Adrian age=11} 
+17 Mar 2021 01:21:06,309 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 01:21:06,309 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 01:21:06,309 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 01:21:06,309 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 01:21:06,309 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 01:21:09,781 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+17 Mar 2021 01:21:09,781 TRACE repository.ChildRepository 133 update - Updates 1 instances
+17 Mar 2021 01:21:09,781 TRACE repository.ChildRepository 138 update - Exit
+17 Mar 2021 01:21:09,781 TRACE repository.ChildRepository 58 findAll - Enter
+17 Mar 2021 01:21:09,781 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 01:21:09,781 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+17 Mar 2021 01:21:09,781 TRACE repository.ChildRepository 76 findAll - Exit with([Child{id= 1 name='Adrian age=11}, Child{id= 2 name='Marius age=9}, Child{id= 4 name='Alin age=12}])
+17 Mar 2021 01:21:09,781 TRACE repository.ChildRepository 166 exists - Enter Verifing ... 
+17 Mar 2021 01:21:09,781 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 01:21:09,781 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+17 Mar 2021 01:21:09,796 TRACE repository.ChildRepository 182 exists - Exit
+17 Mar 2021 01:21:09,796 TRACE repository.ChildRepository 146 count - Enter Counting ...
+17 Mar 2021 01:21:09,796 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 01:21:09,796 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+17 Mar 2021 01:21:09,796 TRACE repository.ChildRepository 152 count - Counted children
+17 Mar 2021 01:21:09,796 TRACE repository.ChildRepository 158 count - Exit with(3)
+17 Mar 2021 01:22:35,990 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 01:22:36,000 TRACE repository.ChildRepository 58 findAll - Enter
+17 Mar 2021 01:22:36,000 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 01:22:36,000 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 01:22:36,000 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 01:22:36,000 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 01:22:36,002 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 01:22:36,210 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+17 Mar 2021 01:22:36,220 TRACE repository.ChildRepository 76 findAll - Exit with([1 Adrian 11, 2 Marius 9, 4 Alin 12])
+17 Mar 2021 01:22:36,220 TRACE repository.ChildRepository 166 exists - Enter Verifing ... 
+17 Mar 2021 01:22:36,220 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 01:22:36,220 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+17 Mar 2021 01:22:36,220 TRACE repository.ChildRepository 182 exists - Exit
+17 Mar 2021 01:22:36,220 TRACE repository.ChildRepository 146 count - Enter Counting ...
+17 Mar 2021 01:22:36,220 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 01:22:36,225 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+17 Mar 2021 01:22:36,225 TRACE repository.ChildRepository 152 count - Counted children
+17 Mar 2021 01:22:36,225 TRACE repository.ChildRepository 158 count - Exit with(3)
+17 Mar 2021 02:30:42,746 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 02:30:42,756 TRACE repository.ChallengeRepository 117 save - Enter Saving Challenge null 6 8 6-8 
+17 Mar 2021 02:30:42,757 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:30:42,757 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 02:30:42,757 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 02:30:42,758 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 02:30:42,758 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 02:30:43,013 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@28261e8e)
+17 Mar 2021 02:30:43,183 TRACE repository.ChallengeRepository 126 save - Saved 1 instances
+17 Mar 2021 02:30:43,183 TRACE repository.ChallengeRepository 131 save - Exit
+17 Mar 2021 02:30:43,183 TRACE repository.ChallengeRepository 90 findAll - Enter
+17 Mar 2021 02:30:43,184 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:30:43,184 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@28261e8e)
+17 Mar 2021 02:30:43,185 TRACE repository.ChallengeRepository 109 findAll - Exit with([1 9 11 9-11, 2 12 14 12-14, 3 6 8 6-8])
+17 Mar 2021 02:30:43,186 TRACE repository.ChallengeRepository 203 exists - Enter Verifing ... 
+17 Mar 2021 02:30:43,187 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:30:43,187 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@28261e8e)
+17 Mar 2021 02:30:43,188 TRACE repository.ChallengeRepository 183 count - Enter Counting ...
+17 Mar 2021 02:30:43,188 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:30:43,188 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@28261e8e)
+17 Mar 2021 02:30:43,189 TRACE repository.ChallengeRepository 189 count - Counted challenges
+17 Mar 2021 02:30:43,189 TRACE repository.ChallengeRepository 195 count - Exit with(3)
+17 Mar 2021 02:32:52,953 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 02:32:52,958 TRACE repository.ChallengeRepository 139 delete - Enter Deleting Challenge with id 3
+17 Mar 2021 02:32:52,959 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:32:52,959 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 02:32:52,960 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 02:32:52,960 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 02:32:52,960 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 02:32:53,137 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+17 Mar 2021 02:32:53,140 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 02:32:53,140 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:32:53,140 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+17 Mar 2021 02:32:53,149 TRACE repository.ChallengeRepository 82 findOne - Exit with(3 6 8 6-8)
+17 Mar 2021 02:32:53,316 TRACE repository.ChallengeRepository 90 findAll - Enter
+17 Mar 2021 02:32:53,317 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:32:53,317 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+17 Mar 2021 02:32:53,318 TRACE repository.ChallengeRepository 109 findAll - Exit with([1 9 11 9-11, 2 12 14 12-14])
+17 Mar 2021 02:32:53,319 TRACE repository.ChallengeRepository 30 findByProperties - Enter
+17 Mar 2021 02:32:53,319 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:32:53,320 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+17 Mar 2021 02:32:53,320 TRACE repository.ChallengeRepository 52 findByProperties - Exit with(1 9 11 9-11)
+17 Mar 2021 02:32:53,321 TRACE repository.ChallengeRepository 203 exists - Enter Verifing ... 
+17 Mar 2021 02:32:53,321 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:32:53,321 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+17 Mar 2021 02:32:53,321 TRACE repository.ChallengeRepository 219 exists - Exit
+17 Mar 2021 02:32:53,322 TRACE repository.ChallengeRepository 183 count - Enter Counting ...
+17 Mar 2021 02:32:53,322 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:32:53,322 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+17 Mar 2021 02:32:53,322 TRACE repository.ChallengeRepository 189 count - Counted challenges
+17 Mar 2021 02:32:53,323 TRACE repository.ChallengeRepository 195 count - Exit with(2)
+17 Mar 2021 02:34:52,227 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 02:34:52,232 TRACE repository.ChallengeRepository 90 findAll - Enter
+17 Mar 2021 02:34:52,232 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:34:52,233 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 02:34:52,233 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 02:34:52,234 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 02:34:52,235 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 02:34:52,461 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+17 Mar 2021 02:34:52,470 TRACE repository.ChallengeRepository 109 findAll - Exit with([1 9 11 9-11, 2 12 14 12-14])
+17 Mar 2021 02:34:52,472 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 02:34:52,472 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:34:52,472 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+17 Mar 2021 02:34:52,473 TRACE repository.ChallengeRepository 82 findOne - Exit with(2 12 14 12-14)
+17 Mar 2021 02:34:52,474 TRACE repository.ChallengeRepository 30 findByProperties - Enter
+17 Mar 2021 02:34:52,474 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:34:52,474 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+17 Mar 2021 02:34:52,475 TRACE repository.ChallengeRepository 52 findByProperties - Exit with(1 9 11 9-11)
+17 Mar 2021 02:34:52,476 TRACE repository.ChallengeRepository 203 exists - Enter Verifing ... 
+17 Mar 2021 02:34:52,477 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:34:52,477 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+17 Mar 2021 02:34:52,478 TRACE repository.ChallengeRepository 219 exists - Exit
+17 Mar 2021 02:34:52,478 TRACE repository.ChallengeRepository 183 count - Enter Counting ...
+17 Mar 2021 02:34:52,479 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:34:52,479 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+17 Mar 2021 02:34:52,479 TRACE repository.ChallengeRepository 189 count - Counted challenges
+17 Mar 2021 02:34:52,480 TRACE repository.ChallengeRepository 195 count - Exit with(2)
+17 Mar 2021 02:42:25,476 INFO  repository.EmployeesRepository 24 <init> - Initializing Employees Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 02:42:25,492 TRACE repository.EmployeesRepository 113 save - Enter Saving Employee null marius bicicleta 
+17 Mar 2021 02:42:25,492 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:42:25,492 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 02:42:25,492 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 02:42:25,492 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 02:42:25,492 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 02:42:25,663 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712625fd)
+17 Mar 2021 02:42:25,822 TRACE repository.EmployeesRepository 121 save - Saved 1 instances
+17 Mar 2021 02:42:25,822 TRACE repository.EmployeesRepository 126 save - Exit
+17 Mar 2021 02:42:25,822 TRACE repository.EmployeesRepository 87 findAll - Enter
+17 Mar 2021 02:42:25,823 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:42:25,823 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712625fd)
+17 Mar 2021 02:42:25,824 TRACE repository.EmployeesRepository 105 findAll - Exit with([1 alin onea, 2 adrian adi123, 3 marius bicicleta])
+17 Mar 2021 02:42:25,825 TRACE repository.EmployeesRepository 59 findOne - Enter
+17 Mar 2021 02:42:25,825 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:42:25,825 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712625fd)
+17 Mar 2021 02:42:25,826 TRACE repository.EmployeesRepository 79 findOne - Exit with(2 adrian adi123)
+17 Mar 2021 02:42:25,826 TRACE repository.EmployeesRepository 31 findByUsername - Enter
+17 Mar 2021 02:42:25,826 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:42:25,826 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712625fd)
+17 Mar 2021 02:42:25,827 TRACE repository.EmployeesRepository 51 findByUsername - Exit with(1 alin onea)
+17 Mar 2021 02:42:25,827 TRACE repository.EmployeesRepository 197 exists - Enter Verifing ... 
+17 Mar 2021 02:42:25,827 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:42:25,827 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712625fd)
+17 Mar 2021 02:42:25,828 TRACE repository.EmployeesRepository 177 count - Enter Counting ...
+17 Mar 2021 02:42:25,828 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:42:25,828 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712625fd)
+17 Mar 2021 02:42:25,829 TRACE repository.EmployeesRepository 183 count - Counted children
+17 Mar 2021 02:42:25,829 TRACE repository.EmployeesRepository 189 count - Exit with(3)
+17 Mar 2021 02:44:29,466 INFO  repository.EmployeesRepository 24 <init> - Initializing Employees Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 02:44:29,472 TRACE repository.EmployeesRepository 134 delete - Enter Deleting Employee with id 3
+17 Mar 2021 02:44:29,472 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:44:29,472 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 02:44:29,473 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 02:44:29,474 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 02:44:29,474 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 02:44:29,648 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+17 Mar 2021 02:44:29,650 TRACE repository.EmployeesRepository 59 findOne - Enter
+17 Mar 2021 02:44:29,650 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:44:29,651 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+17 Mar 2021 02:44:29,652 TRACE repository.EmployeesRepository 79 findOne - Exit with(3 marius bicicleta)
+17 Mar 2021 02:44:29,871 TRACE repository.EmployeesRepository 87 findAll - Enter
+17 Mar 2021 02:44:29,871 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:44:29,871 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+17 Mar 2021 02:44:29,871 TRACE repository.EmployeesRepository 105 findAll - Exit with([1 alin onea, 2 adrian adi123])
+17 Mar 2021 02:44:29,871 TRACE repository.EmployeesRepository 59 findOne - Enter
+17 Mar 2021 02:44:29,871 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:44:29,871 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+17 Mar 2021 02:44:29,871 TRACE repository.EmployeesRepository 79 findOne - Exit with(2 adrian adi123)
+17 Mar 2021 02:44:29,871 TRACE repository.EmployeesRepository 31 findByUsername - Enter
+17 Mar 2021 02:44:29,871 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:44:29,871 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+17 Mar 2021 02:44:29,871 TRACE repository.EmployeesRepository 51 findByUsername - Exit with(1 alin onea)
+17 Mar 2021 02:44:29,871 TRACE repository.EmployeesRepository 197 exists - Enter Verifing ... 
+17 Mar 2021 02:44:29,871 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:44:29,871 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+17 Mar 2021 02:44:29,871 TRACE repository.EmployeesRepository 213 exists - Exit
+17 Mar 2021 02:44:29,871 TRACE repository.EmployeesRepository 177 count - Enter Counting ...
+17 Mar 2021 02:44:29,871 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 02:44:29,871 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cb0755b)
+17 Mar 2021 02:44:29,886 TRACE repository.EmployeesRepository 183 count - Counted children
+17 Mar 2021 02:44:29,886 TRACE repository.EmployeesRepository 189 count - Exit with(2)
+17 Mar 2021 17:06:16,519 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:06:16,540 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:06:16,541 INFO  repository.EmployeesRepository 24 <init> - Initializing Employees Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:06:16,542 INFO  repository.EntriesRepository 26 <init> - Initializing Entries Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:06:16,560 TRACE repository.EntriesRepository 137 save - Enter Saving Entry 4 - 2 = Alin 12 - 12 14 
+17 Mar 2021 17:06:16,561 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:06:16,561 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:06:16,561 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:06:16,562 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:06:16,562 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:06:16,851 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48bb62)
+17 Mar 2021 17:06:17,068 TRACE repository.EntriesRepository 146 save - Saved 1 instances
+17 Mar 2021 17:06:17,069 TRACE repository.EntriesRepository 151 save - Exit
+17 Mar 2021 17:06:17,069 TRACE repository.EntriesRepository 110 findAll - Enter
+17 Mar 2021 17:06:17,069 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:06:17,070 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48bb62)
+17 Mar 2021 17:06:17,070 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:06:17,070 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:06:17,071 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:06:17,071 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:06:17,071 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:06:17,071 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:06:17,142 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c284af)
+17 Mar 2021 17:06:17,146 TRACE repository.ChildRepository 50 findOne - Exit with(1 Adrian 11)
+17 Mar 2021 17:06:17,146 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:06:17,146 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:06:17,146 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:06:17,146 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:06:17,147 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:06:17,147 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:06:17,148 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d1c005e)
+17 Mar 2021 17:06:17,153 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:08:17,582 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:08:17,587 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:08:17,589 INFO  repository.EmployeesRepository 24 <init> - Initializing Employees Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:08:17,591 INFO  repository.EntriesRepository 26 <init> - Initializing Entries Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:08:17,602 TRACE repository.EntriesRepository 110 findAll - Enter
+17 Mar 2021 17:08:17,602 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:08:17,602 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:08:17,603 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:08:17,603 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:08:17,603 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:08:17,824 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:08:17,827 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:08:17,828 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:08:17,828 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:08:17,828 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:08:17,828 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:08:17,828 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:08:17,829 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cc43f62)
+17 Mar 2021 17:08:17,834 TRACE repository.ChildRepository 50 findOne - Exit with(1 Adrian 11)
+17 Mar 2021 17:08:17,834 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:08:17,834 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:08:17,834 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:08:17,835 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:08:17,835 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:08:17,835 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:08:17,836 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+17 Mar 2021 17:08:17,842 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:08:17,843 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:08:17,844 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:08:17,844 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cc43f62)
+17 Mar 2021 17:08:17,845 TRACE repository.ChildRepository 50 findOne - Exit with(2 Marius 9)
+17 Mar 2021 17:08:17,845 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:08:17,845 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:08:17,845 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+17 Mar 2021 17:08:17,846 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:08:17,854 TRACE repository.EntriesRepository 129 findAll - Exit with([1 - 1 = Adrian 11 - 9 11, 2 - 1 = Marius 9 - 9 11])
+17 Mar 2021 17:08:17,856 TRACE repository.EntriesRepository 76 findOne - Enter
+17 Mar 2021 17:08:17,856 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:08:17,857 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:08:17,859 TRACE repository.EntriesRepository 35 findChildNumber - Enter Counting ...
+17 Mar 2021 17:08:17,860 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:08:17,860 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:08:17,861 TRACE repository.EntriesRepository 41 findChildNumber - Counted children that participates at the challenge with id 1 
+17 Mar 2021 17:08:17,862 TRACE repository.EntriesRepository 47 findChildNumber - Exit with(0)
+17 Mar 2021 17:08:17,863 TRACE repository.EntriesRepository 55 findChallengeNumber - Enter Counting ...
+17 Mar 2021 17:08:17,863 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:08:17,863 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:08:17,864 TRACE repository.EntriesRepository 61 findChallengeNumber - Counted the number of challenges of the child with id 1 
+17 Mar 2021 17:08:17,864 TRACE repository.EntriesRepository 67 findChallengeNumber - Exit with(0)
+17 Mar 2021 17:08:17,864 TRACE repository.EntriesRepository 223 exists - Enter Verifing ... 
+17 Mar 2021 17:08:17,865 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:08:17,865 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:08:17,866 TRACE repository.EntriesRepository 240 exists - Exit
+17 Mar 2021 17:08:17,866 TRACE repository.EntriesRepository 203 count - Enter Counting ...
+17 Mar 2021 17:08:17,867 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:08:17,867 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:08:17,890 ERROR repository.EntriesRepository 212 count - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: id)
+17 Mar 2021 17:08:17,890 TRACE repository.EntriesRepository 215 count - Exit with(0)
+17 Mar 2021 17:09:22,799 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:09:22,804 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:09:22,805 INFO  repository.EmployeesRepository 24 <init> - Initializing Employees Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:09:22,806 INFO  repository.EntriesRepository 26 <init> - Initializing Entries Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:09:22,815 TRACE repository.EntriesRepository 110 findAll - Enter
+17 Mar 2021 17:09:22,816 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:09:22,816 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:09:22,817 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:09:22,817 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:09:22,818 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:09:23,002 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:09:23,005 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:09:23,006 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:09:23,006 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:09:23,006 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:09:23,006 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:09:23,007 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:09:23,008 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cc43f62)
+17 Mar 2021 17:09:23,012 TRACE repository.ChildRepository 50 findOne - Exit with(1 Adrian 11)
+17 Mar 2021 17:09:23,013 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:09:23,013 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:09:23,014 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:09:23,014 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:09:23,014 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:09:23,015 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:09:23,015 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+17 Mar 2021 17:09:23,022 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:09:23,023 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:09:23,023 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:09:23,023 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cc43f62)
+17 Mar 2021 17:09:23,024 TRACE repository.ChildRepository 50 findOne - Exit with(2 Marius 9)
+17 Mar 2021 17:09:23,024 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:09:23,025 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:09:23,025 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+17 Mar 2021 17:09:23,026 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:09:23,036 TRACE repository.EntriesRepository 129 findAll - Exit with([1 - 1 = Adrian 11 - 9 11, 2 - 1 = Marius 9 - 9 11])
+17 Mar 2021 17:09:23,037 TRACE repository.EntriesRepository 76 findOne - Enter
+17 Mar 2021 17:09:23,037 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:09:23,037 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:09:23,038 TRACE repository.EntriesRepository 35 findChildNumber - Enter Counting ...
+17 Mar 2021 17:09:23,039 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:09:23,039 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:09:23,040 TRACE repository.EntriesRepository 41 findChildNumber - Counted children that participates at the challenge with id 1 
+17 Mar 2021 17:09:23,040 TRACE repository.EntriesRepository 47 findChildNumber - Exit with(0)
+17 Mar 2021 17:09:23,041 TRACE repository.EntriesRepository 55 findChallengeNumber - Enter Counting ...
+17 Mar 2021 17:09:23,041 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:09:23,041 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:09:23,042 TRACE repository.EntriesRepository 61 findChallengeNumber - Counted the number of challenges of the child with id 1 
+17 Mar 2021 17:09:23,042 TRACE repository.EntriesRepository 67 findChallengeNumber - Exit with(0)
+17 Mar 2021 17:09:23,042 TRACE repository.EntriesRepository 223 exists - Enter Verifing ... 
+17 Mar 2021 17:09:23,043 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:09:23,043 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:09:23,044 TRACE repository.EntriesRepository 240 exists - Exit
+17 Mar 2021 17:09:23,044 TRACE repository.EntriesRepository 203 count - Enter Counting ...
+17 Mar 2021 17:09:23,044 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:09:23,044 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:09:23,045 TRACE repository.EntriesRepository 209 count - Counted entries
+17 Mar 2021 17:09:23,045 TRACE repository.EntriesRepository 215 count - Exit with(2)
+17 Mar 2021 17:13:13,591 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:13:13,597 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:13:13,598 INFO  repository.EmployeesRepository 24 <init> - Initializing Employees Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:13:13,600 INFO  repository.EntriesRepository 26 <init> - Initializing Entries Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:13:13,609 TRACE repository.EntriesRepository 110 findAll - Enter
+17 Mar 2021 17:13:13,609 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:13:13,610 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:13:13,610 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:13:13,610 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:13:13,610 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:13:13,981 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:13:13,985 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:13:13,985 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:13:13,985 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:13:13,986 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:13:13,986 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:13:13,986 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:13:13,987 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cc43f62)
+17 Mar 2021 17:13:13,993 TRACE repository.ChildRepository 50 findOne - Exit with(1 Adrian 11)
+17 Mar 2021 17:13:13,993 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:13:13,994 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:13:13,994 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:13:13,994 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:13:13,994 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:13:13,995 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:13:13,996 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+17 Mar 2021 17:13:14,004 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:13:14,005 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:13:14,005 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:13:14,006 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cc43f62)
+17 Mar 2021 17:13:14,006 TRACE repository.ChildRepository 50 findOne - Exit with(2 Marius 9)
+17 Mar 2021 17:13:14,007 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:13:14,007 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:13:14,008 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+17 Mar 2021 17:13:14,008 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:13:14,020 TRACE repository.EntriesRepository 129 findAll - Exit with([1 - 1 = Adrian 11 - 9 11, 2 - 1 = Marius 9 - 9 11])
+17 Mar 2021 17:13:14,021 TRACE repository.EntriesRepository 76 findOne - Enter
+17 Mar 2021 17:13:14,022 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:13:14,022 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:13:14,023 TRACE repository.EntriesRepository 35 findChildNumber - Enter
+17 Mar 2021 17:13:14,023 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:13:14,024 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:13:14,025 TRACE repository.EntriesRepository 41 findChildNumber - Counted children that participates at the challenge with id 1 
+17 Mar 2021 17:13:14,025 TRACE repository.EntriesRepository 47 findChildNumber - Exit with(0)
+17 Mar 2021 17:13:14,025 TRACE repository.EntriesRepository 55 findChallengeNumber - Enter
+17 Mar 2021 17:13:14,026 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:13:14,026 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:13:14,027 TRACE repository.EntriesRepository 61 findChallengeNumber - Counted the number of challenges of the child with id 1 
+17 Mar 2021 17:13:14,027 TRACE repository.EntriesRepository 67 findChallengeNumber - Exit with(0)
+17 Mar 2021 17:13:14,028 TRACE repository.EntriesRepository 223 exists - Enter Verifing ... 
+17 Mar 2021 17:13:14,028 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:13:14,029 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:13:14,030 TRACE repository.EntriesRepository 240 exists - Exit
+17 Mar 2021 17:13:14,030 TRACE repository.EntriesRepository 203 count - Enter Counting ...
+17 Mar 2021 17:13:14,031 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:13:14,031 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:13:14,032 TRACE repository.EntriesRepository 209 count - Counted entries
+17 Mar 2021 17:13:14,033 TRACE repository.EntriesRepository 215 count - Exit with(2)
+17 Mar 2021 17:16:26,578 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:16:26,584 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:16:26,585 INFO  repository.EmployeesRepository 24 <init> - Initializing Employees Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:16:26,586 INFO  repository.EntriesRepository 26 <init> - Initializing Entries Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:16:26,595 TRACE repository.EntriesRepository 110 findAll - Enter
+17 Mar 2021 17:16:26,595 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:16:26,596 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:16:26,596 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:16:26,597 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:16:26,597 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:16:26,815 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:16:26,820 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:16:26,821 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:16:26,821 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:16:26,821 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:16:26,821 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:16:26,822 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:16:26,822 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cc43f62)
+17 Mar 2021 17:16:26,827 TRACE repository.ChildRepository 50 findOne - Exit with(1 Adrian 11)
+17 Mar 2021 17:16:26,827 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:16:26,827 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:16:26,828 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:16:26,828 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:16:26,828 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:16:26,828 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:16:26,829 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+17 Mar 2021 17:16:26,836 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:16:26,837 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:16:26,837 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:16:26,837 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cc43f62)
+17 Mar 2021 17:16:26,838 TRACE repository.ChildRepository 50 findOne - Exit with(2 Marius 9)
+17 Mar 2021 17:16:26,838 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:16:26,838 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:16:26,838 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+17 Mar 2021 17:16:26,839 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:16:26,861 TRACE repository.EntriesRepository 129 findAll - Exit with([1 - 1 = Adrian 11 - 9 11 2021-03-17T19:07:43, 2 - 1 = Marius 9 - 9 11 2021-03-17T19:07:47])
+17 Mar 2021 17:16:26,864 TRACE repository.EntriesRepository 76 findOne - Enter
+17 Mar 2021 17:16:26,864 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:16:26,864 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:16:26,865 TRACE repository.EntriesRepository 35 findChildNumber - Enter
+17 Mar 2021 17:16:26,866 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:16:26,867 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:16:26,867 TRACE repository.EntriesRepository 41 findChildNumber - Counted children that participates at the challenge with id 1 
+17 Mar 2021 17:16:26,868 TRACE repository.EntriesRepository 47 findChildNumber - Exit with(0)
+17 Mar 2021 17:16:26,868 TRACE repository.EntriesRepository 55 findChallengeNumber - Enter
+17 Mar 2021 17:16:26,869 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:16:26,869 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:16:26,869 TRACE repository.EntriesRepository 61 findChallengeNumber - Counted the number of challenges of the child with id 1 
+17 Mar 2021 17:16:26,870 TRACE repository.EntriesRepository 67 findChallengeNumber - Exit with(0)
+17 Mar 2021 17:16:26,870 TRACE repository.EntriesRepository 223 exists - Enter Verifing ... 
+17 Mar 2021 17:16:26,871 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:16:26,871 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:16:26,871 TRACE repository.EntriesRepository 240 exists - Exit
+17 Mar 2021 17:16:26,872 TRACE repository.EntriesRepository 203 count - Enter Counting ...
+17 Mar 2021 17:16:26,872 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:16:26,873 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:16:26,873 TRACE repository.EntriesRepository 209 count - Counted entries
+17 Mar 2021 17:16:26,873 TRACE repository.EntriesRepository 215 count - Exit with(2)
+17 Mar 2021 17:19:21,320 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:19:21,326 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:19:21,328 INFO  repository.EmployeesRepository 24 <init> - Initializing Employees Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:19:21,330 INFO  repository.EntriesRepository 26 <init> - Initializing Entries Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:19:21,342 TRACE repository.EntriesRepository 112 findAll - Enter
+17 Mar 2021 17:19:21,343 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:19:21,343 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:19:21,344 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:19:21,344 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:19:21,344 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:19:21,536 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:19:21,539 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:19:21,540 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:19:21,540 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:19:21,540 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:19:21,540 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:19:21,541 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:19:21,542 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cc43f62)
+17 Mar 2021 17:19:21,546 TRACE repository.ChildRepository 50 findOne - Exit with(1 Adrian 11)
+17 Mar 2021 17:19:21,546 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:19:21,546 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:19:21,547 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:19:21,547 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:19:21,547 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:19:21,548 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:19:21,548 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+17 Mar 2021 17:19:21,554 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:19:21,556 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:19:21,557 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:19:21,557 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cc43f62)
+17 Mar 2021 17:19:21,558 TRACE repository.ChildRepository 50 findOne - Exit with(2 Marius 9)
+17 Mar 2021 17:19:21,558 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:19:21,559 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:19:21,559 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+17 Mar 2021 17:19:21,559 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:19:21,570 TRACE repository.EntriesRepository 131 findAll - Exit with([1 - 1 = Adrian 11 - 9 11 2021-03-17T19:07:43, 2 - 1 = Marius 9 - 9 11 2021-03-17T19:07:47])
+17 Mar 2021 17:19:21,571 TRACE repository.EntriesRepository 78 findOne - Enter
+17 Mar 2021 17:19:21,572 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:19:21,572 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:19:21,573 TRACE repository.EntriesRepository 35 findChildNumber - Enter
+17 Mar 2021 17:19:21,573 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:19:21,574 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:19:21,575 TRACE repository.EntriesRepository 42 findChildNumber - Counted children that participates at the challenge with id 1 
+17 Mar 2021 17:19:21,576 TRACE repository.EntriesRepository 48 findChildNumber - Exit with(2)
+17 Mar 2021 17:19:21,577 TRACE repository.EntriesRepository 56 findChallengeNumber - Enter
+17 Mar 2021 17:19:21,577 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:19:21,578 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:19:21,578 TRACE repository.EntriesRepository 63 findChallengeNumber - Counted the number of challenges of the child with id 1 
+17 Mar 2021 17:19:21,578 TRACE repository.EntriesRepository 69 findChallengeNumber - Exit with(1)
+17 Mar 2021 17:19:21,579 TRACE repository.EntriesRepository 225 exists - Enter Verifing ... 
+17 Mar 2021 17:19:21,579 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:19:21,579 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:19:21,580 TRACE repository.EntriesRepository 242 exists - Exit
+17 Mar 2021 17:19:21,580 TRACE repository.EntriesRepository 205 count - Enter Counting ...
+17 Mar 2021 17:19:21,580 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:19:21,580 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:19:21,581 TRACE repository.EntriesRepository 211 count - Counted entries
+17 Mar 2021 17:19:21,581 TRACE repository.EntriesRepository 217 count - Exit with(2)
+17 Mar 2021 17:20:30,882 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:20:30,888 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:20:30,889 INFO  repository.EmployeesRepository 24 <init> - Initializing Employees Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:20:30,890 INFO  repository.EntriesRepository 26 <init> - Initializing Entries Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:20:30,910 TRACE repository.EntriesRepository 139 save - Enter Saving Entry 4 - 2 = Alin 12 - 12 14 2021-03-17T17:20:30.897021 
+17 Mar 2021 17:20:30,911 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:30,911 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:20:30,911 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:20:30,912 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:20:30,912 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:20:31,093 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a78e3)
+17 Mar 2021 17:20:31,268 TRACE repository.EntriesRepository 148 save - Saved 1 instances
+17 Mar 2021 17:20:31,269 TRACE repository.EntriesRepository 153 save - Exit
+17 Mar 2021 17:20:31,269 TRACE repository.EntriesRepository 112 findAll - Enter
+17 Mar 2021 17:20:31,269 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:31,270 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a78e3)
+17 Mar 2021 17:20:31,270 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:20:31,270 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:31,271 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:20:31,271 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:20:31,271 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:20:31,271 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:20:31,311 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31ea9581)
+17 Mar 2021 17:20:31,315 TRACE repository.ChildRepository 50 findOne - Exit with(1 Adrian 11)
+17 Mar 2021 17:20:31,315 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:20:31,316 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:31,316 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:20:31,316 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:20:31,316 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:20:31,316 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:20:31,317 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ddeb7cb)
+17 Mar 2021 17:20:31,321 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:20:31,322 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:20:31,322 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:31,322 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31ea9581)
+17 Mar 2021 17:20:31,323 TRACE repository.ChildRepository 50 findOne - Exit with(2 Marius 9)
+17 Mar 2021 17:20:31,323 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:20:31,323 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:31,323 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ddeb7cb)
+17 Mar 2021 17:20:31,324 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:20:31,324 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:20:31,324 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:31,324 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31ea9581)
+17 Mar 2021 17:20:31,325 TRACE repository.ChildRepository 50 findOne - Exit with(4 Alin 12)
+17 Mar 2021 17:20:31,325 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:20:31,326 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:31,326 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ddeb7cb)
+17 Mar 2021 17:20:31,326 TRACE repository.ChallengeRepository 82 findOne - Exit with(2 12 14 12-14)
+17 Mar 2021 17:20:31,327 TRACE repository.EntriesRepository 131 findAll - Exit with([1 - 1 = Adrian 11 - 9 11 2021-03-17T19:07:43, 2 - 1 = Marius 9 - 9 11 2021-03-17T19:07:47, 4 - 2 = Alin 12 - 12 14 2021-03-17T17:20:30.897])
+17 Mar 2021 17:20:31,328 TRACE repository.EntriesRepository 78 findOne - Enter
+17 Mar 2021 17:20:31,328 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:31,328 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a78e3)
+17 Mar 2021 17:20:31,329 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:20:31,329 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:31,329 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31ea9581)
+17 Mar 2021 17:20:31,329 TRACE repository.ChildRepository 50 findOne - Exit with(4 Alin 12)
+17 Mar 2021 17:20:31,330 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:20:31,330 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:31,330 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ddeb7cb)
+17 Mar 2021 17:20:31,330 TRACE repository.ChallengeRepository 82 findOne - Exit with(2 12 14 12-14)
+17 Mar 2021 17:20:31,330 TRACE repository.EntriesRepository 103 findOne - Exit with(4 - 2 = Alin 12 - 12 14 2021-03-17T17:20:30.897)
+17 Mar 2021 17:20:31,331 TRACE repository.EntriesRepository 35 findChildNumber - Enter
+17 Mar 2021 17:20:31,331 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:31,331 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a78e3)
+17 Mar 2021 17:20:31,331 TRACE repository.EntriesRepository 42 findChildNumber - Counted children that participates at the challenge with id 1 
+17 Mar 2021 17:20:31,332 TRACE repository.EntriesRepository 48 findChildNumber - Exit with(2)
+17 Mar 2021 17:20:31,332 TRACE repository.EntriesRepository 56 findChallengeNumber - Enter
+17 Mar 2021 17:20:31,332 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:31,332 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a78e3)
+17 Mar 2021 17:20:31,332 TRACE repository.EntriesRepository 63 findChallengeNumber - Counted the number of challenges of the child with id 1 
+17 Mar 2021 17:20:31,332 TRACE repository.EntriesRepository 69 findChallengeNumber - Exit with(1)
+17 Mar 2021 17:20:31,333 TRACE repository.EntriesRepository 225 exists - Enter Verifing ... 
+17 Mar 2021 17:20:31,333 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:31,333 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a78e3)
+17 Mar 2021 17:20:31,334 TRACE repository.EntriesRepository 205 count - Enter Counting ...
+17 Mar 2021 17:20:31,335 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:20:31,335 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a78e3)
+17 Mar 2021 17:20:31,336 TRACE repository.EntriesRepository 211 count - Counted entries
+17 Mar 2021 17:20:31,336 TRACE repository.EntriesRepository 217 count - Exit with(3)
+17 Mar 2021 17:22:08,170 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:22:08,175 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:22:08,177 INFO  repository.EmployeesRepository 24 <init> - Initializing Employees Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:22:08,178 INFO  repository.EntriesRepository 26 <init> - Initializing Entries Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:22:08,187 TRACE repository.EntriesRepository 161 delete - Enter Deleting Entry with id model.Tuple@fa49800
+17 Mar 2021 17:22:08,187 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:22:08,187 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:22:08,188 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:22:08,188 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:22:08,188 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:22:08,396 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5afa3c9)
+17 Mar 2021 17:22:08,399 TRACE repository.EntriesRepository 78 findOne - Enter
+17 Mar 2021 17:22:08,400 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:22:08,400 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5afa3c9)
+17 Mar 2021 17:22:08,401 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:22:08,401 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:22:08,401 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:22:08,402 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:22:08,402 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:22:08,402 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:22:08,403 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@413d1baf)
+17 Mar 2021 17:22:08,412 TRACE repository.ChildRepository 50 findOne - Exit with(4 Alin 12)
+17 Mar 2021 17:22:08,412 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:22:08,413 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:22:08,413 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:22:08,413 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:22:08,414 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:22:08,414 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:22:08,415 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6fa51cd4)
+17 Mar 2021 17:22:08,425 TRACE repository.ChallengeRepository 82 findOne - Exit with(2 12 14 12-14)
+17 Mar 2021 17:22:08,438 TRACE repository.EntriesRepository 103 findOne - Exit with(4 - 2 = Alin 12 - 12 14 2021-03-17T17:20:30.897)
+17 Mar 2021 17:22:08,576 TRACE repository.EntriesRepository 112 findAll - Enter
+17 Mar 2021 17:22:08,577 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:22:08,577 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5afa3c9)
+17 Mar 2021 17:22:08,578 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:22:08,578 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:22:08,578 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@413d1baf)
+17 Mar 2021 17:22:08,579 TRACE repository.ChildRepository 50 findOne - Exit with(1 Adrian 11)
+17 Mar 2021 17:22:08,579 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:22:08,579 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:22:08,579 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6fa51cd4)
+17 Mar 2021 17:22:08,580 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:22:08,580 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:22:08,581 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:22:08,581 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@413d1baf)
+17 Mar 2021 17:22:08,581 TRACE repository.ChildRepository 50 findOne - Exit with(2 Marius 9)
+17 Mar 2021 17:22:08,582 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:22:08,582 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:22:08,582 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6fa51cd4)
+17 Mar 2021 17:22:08,583 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:22:08,583 TRACE repository.EntriesRepository 131 findAll - Exit with([1 - 1 = Adrian 11 - 9 11 2021-03-17T19:07:43, 2 - 1 = Marius 9 - 9 11 2021-03-17T19:07:47])
+17 Mar 2021 17:22:08,585 TRACE repository.EntriesRepository 78 findOne - Enter
+17 Mar 2021 17:22:08,585 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:22:08,585 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5afa3c9)
+17 Mar 2021 17:22:08,586 TRACE repository.EntriesRepository 35 findChildNumber - Enter
+17 Mar 2021 17:22:08,586 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:22:08,586 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5afa3c9)
+17 Mar 2021 17:22:08,587 TRACE repository.EntriesRepository 42 findChildNumber - Counted children that participates at the challenge with id 1 
+17 Mar 2021 17:22:08,588 TRACE repository.EntriesRepository 48 findChildNumber - Exit with(2)
+17 Mar 2021 17:22:08,588 TRACE repository.EntriesRepository 56 findChallengeNumber - Enter
+17 Mar 2021 17:22:08,588 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:22:08,588 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5afa3c9)
+17 Mar 2021 17:22:08,589 TRACE repository.EntriesRepository 63 findChallengeNumber - Counted the number of challenges of the child with id 1 
+17 Mar 2021 17:22:08,589 TRACE repository.EntriesRepository 69 findChallengeNumber - Exit with(1)
+17 Mar 2021 17:22:08,590 TRACE repository.EntriesRepository 225 exists - Enter Verifing ... 
+17 Mar 2021 17:22:08,590 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:22:08,590 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5afa3c9)
+17 Mar 2021 17:22:08,591 TRACE repository.EntriesRepository 242 exists - Exit
+17 Mar 2021 17:22:08,591 TRACE repository.EntriesRepository 205 count - Enter Counting ...
+17 Mar 2021 17:22:08,591 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:22:08,591 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5afa3c9)
+17 Mar 2021 17:22:08,592 TRACE repository.EntriesRepository 211 count - Counted entries
+17 Mar 2021 17:22:08,592 TRACE repository.EntriesRepository 217 count - Exit with(2)
+17 Mar 2021 17:23:12,940 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:23:12,945 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:23:12,947 INFO  repository.EmployeesRepository 24 <init> - Initializing Employees Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:23:12,948 INFO  repository.EntriesRepository 26 <init> - Initializing Entries Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:23:12,979 TRACE repository.EntriesRepository 139 save - Enter Saving Entry 4 - 2 = Alin 12 - 12 14 2021-03-17T17:23:12.955680300 
+17 Mar 2021 17:23:12,980 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:12,980 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:23:12,981 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:23:12,981 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:23:12,981 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:23:13,246 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a78e3)
+17 Mar 2021 17:23:13,393 TRACE repository.EntriesRepository 148 save - Saved 1 instances
+17 Mar 2021 17:23:13,393 TRACE repository.EntriesRepository 153 save - Exit
+17 Mar 2021 17:23:13,394 TRACE repository.EntriesRepository 112 findAll - Enter
+17 Mar 2021 17:23:13,394 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:13,395 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a78e3)
+17 Mar 2021 17:23:13,395 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:23:13,396 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:13,396 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:23:13,396 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:23:13,396 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:23:13,396 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:23:13,402 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31ea9581)
+17 Mar 2021 17:23:13,407 TRACE repository.ChildRepository 50 findOne - Exit with(1 Adrian 11)
+17 Mar 2021 17:23:13,407 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:23:13,407 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:13,408 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:23:13,408 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:23:13,408 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:23:13,408 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:23:13,409 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ddeb7cb)
+17 Mar 2021 17:23:13,414 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:23:13,415 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:23:13,415 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:13,415 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31ea9581)
+17 Mar 2021 17:23:13,415 TRACE repository.ChildRepository 50 findOne - Exit with(2 Marius 9)
+17 Mar 2021 17:23:13,416 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:23:13,416 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:13,416 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ddeb7cb)
+17 Mar 2021 17:23:13,416 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:23:13,416 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:23:13,417 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:13,417 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31ea9581)
+17 Mar 2021 17:23:13,417 TRACE repository.ChildRepository 50 findOne - Exit with(4 Alin 12)
+17 Mar 2021 17:23:13,417 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:23:13,417 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:13,418 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ddeb7cb)
+17 Mar 2021 17:23:13,418 TRACE repository.ChallengeRepository 82 findOne - Exit with(2 12 14 12-14)
+17 Mar 2021 17:23:13,419 TRACE repository.EntriesRepository 131 findAll - Exit with([1 - 1 = Adrian 11 - 9 11 2021-03-17T19:07:43, 2 - 1 = Marius 9 - 9 11 2021-03-17T19:07:47, 4 - 2 = Alin 12 - 12 14 2021-03-17T17:23:12.955])
+17 Mar 2021 17:23:13,419 TRACE repository.EntriesRepository 78 findOne - Enter
+17 Mar 2021 17:23:13,420 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:13,420 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a78e3)
+17 Mar 2021 17:23:13,420 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:23:13,420 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:13,421 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31ea9581)
+17 Mar 2021 17:23:13,421 TRACE repository.ChildRepository 50 findOne - Exit with(4 Alin 12)
+17 Mar 2021 17:23:13,421 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:23:13,421 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:13,422 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ddeb7cb)
+17 Mar 2021 17:23:13,422 TRACE repository.ChallengeRepository 82 findOne - Exit with(2 12 14 12-14)
+17 Mar 2021 17:23:13,423 TRACE repository.EntriesRepository 103 findOne - Exit with(4 - 2 = Alin 12 - 12 14 2021-03-17T17:23:12.955)
+17 Mar 2021 17:23:13,423 TRACE repository.EntriesRepository 35 findChildNumber - Enter
+17 Mar 2021 17:23:13,423 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:13,423 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a78e3)
+17 Mar 2021 17:23:13,424 TRACE repository.EntriesRepository 42 findChildNumber - Counted children that participates at the challenge with id 1 
+17 Mar 2021 17:23:13,424 TRACE repository.EntriesRepository 48 findChildNumber - Exit with(2)
+17 Mar 2021 17:23:13,424 TRACE repository.EntriesRepository 56 findChallengeNumber - Enter
+17 Mar 2021 17:23:13,424 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:13,425 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a78e3)
+17 Mar 2021 17:23:13,425 TRACE repository.EntriesRepository 63 findChallengeNumber - Counted the number of challenges of the child with id 1 
+17 Mar 2021 17:23:13,425 TRACE repository.EntriesRepository 69 findChallengeNumber - Exit with(1)
+17 Mar 2021 17:23:13,425 TRACE repository.EntriesRepository 225 exists - Enter Verifing ... 
+17 Mar 2021 17:23:13,426 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:13,426 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a78e3)
+17 Mar 2021 17:23:13,426 TRACE repository.EntriesRepository 205 count - Enter Counting ...
+17 Mar 2021 17:23:13,426 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:23:13,426 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a78e3)
+17 Mar 2021 17:23:13,427 TRACE repository.EntriesRepository 211 count - Counted entries
+17 Mar 2021 17:23:13,427 TRACE repository.EntriesRepository 217 count - Exit with(3)
+17 Mar 2021 17:30:33,726 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:30:33,730 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:30:33,732 INFO  repository.EmployeesRepository 24 <init> - Initializing Employees Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:30:33,733 INFO  repository.EntriesRepository 26 <init> - Initializing Entries Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+17 Mar 2021 17:30:33,779 TRACE repository.EntriesRepository 139 save - Enter Saving Entry 4 - 2 = Alin 12 - 12 14 2021-03-17 17:30:33 
+17 Mar 2021 17:30:33,780 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:33,781 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:30:33,781 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:30:33,784 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:30:33,786 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:30:34,002 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ce026d3)
+17 Mar 2021 17:30:34,011 ERROR repository.EntriesRepository 150 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: Entries.kid, Entries.cid)
+17 Mar 2021 17:30:34,012 TRACE repository.EntriesRepository 153 save - Exit
+17 Mar 2021 17:30:34,012 TRACE repository.EntriesRepository 112 findAll - Enter
+17 Mar 2021 17:30:34,012 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:34,013 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ce026d3)
+17 Mar 2021 17:30:34,014 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:30:34,014 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:34,014 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:30:34,015 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:30:34,018 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:30:34,019 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:30:34,020 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1033576a)
+17 Mar 2021 17:30:34,025 TRACE repository.ChildRepository 50 findOne - Exit with(1 Adrian 11)
+17 Mar 2021 17:30:34,025 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:30:34,025 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:34,026 TRACE utils.Jdbc 24 getNewConnection - Enter
+17 Mar 2021 17:30:34,026 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+17 Mar 2021 17:30:34,026 INFO  utils.Jdbc 30 getNewConnection - user: null
+17 Mar 2021 17:30:34,026 INFO  utils.Jdbc 31 getNewConnection - password: null
+17 Mar 2021 17:30:34,027 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@23e84203)
+17 Mar 2021 17:30:34,033 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:30:34,033 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:30:34,034 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:34,034 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1033576a)
+17 Mar 2021 17:30:34,034 TRACE repository.ChildRepository 50 findOne - Exit with(2 Marius 9)
+17 Mar 2021 17:30:34,035 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:30:34,035 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:34,035 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@23e84203)
+17 Mar 2021 17:30:34,035 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+17 Mar 2021 17:30:34,036 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:30:34,036 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:34,036 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1033576a)
+17 Mar 2021 17:30:34,036 TRACE repository.ChildRepository 50 findOne - Exit with(4 Alin 12)
+17 Mar 2021 17:30:34,037 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:30:34,037 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:34,037 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@23e84203)
+17 Mar 2021 17:30:34,037 TRACE repository.ChallengeRepository 82 findOne - Exit with(2 12 14 12-14)
+17 Mar 2021 17:30:34,038 TRACE repository.EntriesRepository 131 findAll - Exit with([1 - 1 = Adrian 11 - 9 11 2021-03-17 19:07:43, 2 - 1 = Marius 9 - 9 11 2021-03-17 19:07:47, 4 - 2 = Alin 12 - 12 14 2021-03-17 17:23:12])
+17 Mar 2021 17:30:34,039 TRACE repository.EntriesRepository 78 findOne - Enter
+17 Mar 2021 17:30:34,039 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:34,040 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ce026d3)
+17 Mar 2021 17:30:34,040 TRACE repository.ChildRepository 30 findOne - Enter
+17 Mar 2021 17:30:34,041 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:34,041 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1033576a)
+17 Mar 2021 17:30:34,042 TRACE repository.ChildRepository 50 findOne - Exit with(4 Alin 12)
+17 Mar 2021 17:30:34,042 TRACE repository.ChallengeRepository 60 findOne - Enter
+17 Mar 2021 17:30:34,042 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:34,042 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@23e84203)
+17 Mar 2021 17:30:34,043 TRACE repository.ChallengeRepository 82 findOne - Exit with(2 12 14 12-14)
+17 Mar 2021 17:30:34,043 TRACE repository.EntriesRepository 103 findOne - Exit with(4 - 2 = Alin 12 - 12 14 2021-03-17 17:23:12)
+17 Mar 2021 17:30:34,044 TRACE repository.EntriesRepository 35 findChildNumber - Enter
+17 Mar 2021 17:30:34,044 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:34,044 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ce026d3)
+17 Mar 2021 17:30:34,045 TRACE repository.EntriesRepository 42 findChildNumber - Counted children that participates at the challenge with id 1 
+17 Mar 2021 17:30:34,045 TRACE repository.EntriesRepository 48 findChildNumber - Exit with(2)
+17 Mar 2021 17:30:34,046 TRACE repository.EntriesRepository 56 findChallengeNumber - Enter
+17 Mar 2021 17:30:34,046 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:34,046 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ce026d3)
+17 Mar 2021 17:30:34,047 TRACE repository.EntriesRepository 63 findChallengeNumber - Counted the number of challenges of the child with id 1 
+17 Mar 2021 17:30:34,050 TRACE repository.EntriesRepository 69 findChallengeNumber - Exit with(1)
+17 Mar 2021 17:30:34,053 TRACE repository.EntriesRepository 225 exists - Enter Verifing ... 
+17 Mar 2021 17:30:34,053 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:34,053 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ce026d3)
+17 Mar 2021 17:30:34,054 TRACE repository.EntriesRepository 205 count - Enter Counting ...
+17 Mar 2021 17:30:34,054 TRACE utils.Jdbc 46 getConnection - Enter
+17 Mar 2021 17:30:34,054 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ce026d3)
+17 Mar 2021 17:30:34,055 TRACE repository.EntriesRepository 211 count - Counted entries
+17 Mar 2021 17:30:34,055 TRACE repository.EntriesRepository 217 count - Exit with(3)
+18 Mar 2021 11:11:08,935 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+18 Mar 2021 11:11:08,970 TRACE repository.ChildRepository 59 findAll - Enter
+18 Mar 2021 11:11:08,971 TRACE utils.Jdbc 46 getConnection - Enter
+18 Mar 2021 11:11:08,972 TRACE utils.Jdbc 24 getNewConnection - Enter
+18 Mar 2021 11:11:08,972 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+18 Mar 2021 11:11:08,973 INFO  utils.Jdbc 30 getNewConnection - user: null
+18 Mar 2021 11:11:08,973 INFO  utils.Jdbc 31 getNewConnection - password: null
+18 Mar 2021 11:11:09,192 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+18 Mar 2021 11:11:09,200 TRACE repository.ChildRepository 77 findAll - Exit with([1 Adrian 11, 2 Marius 9, 4 Alin 12])
+18 Mar 2021 11:11:09,201 TRACE repository.ChildRepository 167 exists - Enter Verifing ... 
+18 Mar 2021 11:11:09,202 TRACE utils.Jdbc 46 getConnection - Enter
+18 Mar 2021 11:11:09,202 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+18 Mar 2021 11:11:09,203 TRACE repository.ChildRepository 183 exists - Exit
+18 Mar 2021 11:11:09,203 TRACE repository.ChildRepository 147 count - Enter Counting ...
+18 Mar 2021 11:11:09,204 TRACE utils.Jdbc 46 getConnection - Enter
+18 Mar 2021 11:11:09,204 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@548d708a)
+18 Mar 2021 11:11:09,205 TRACE repository.ChildRepository 153 count - Counted children
+18 Mar 2021 11:11:09,205 TRACE repository.ChildRepository 159 count - Exit with(3)
+18 Mar 2021 11:11:09,228 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+18 Mar 2021 11:11:09,240 INFO  repository.EmployeesRepository 24 <init> - Initializing Employees Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+18 Mar 2021 11:11:09,242 INFO  repository.EntriesRepository 26 <init> - Initializing Entries Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+19 Mar 2021 16:37:21,698 INFO  repository.ChildRepository 23 <init> - Initializing Child Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+19 Mar 2021 16:37:21,758 INFO  repository.ChallengeRepository 23 <init> - Initializing Challenge Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+19 Mar 2021 16:37:21,770 INFO  repository.EmployeesRepository 24 <init> - Initializing Employees Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+19 Mar 2021 16:37:21,771 INFO  repository.EntriesRepository 26 <init> - Initializing Entries Repository with properties: {jdbc.url=jdbc:sqlite:D:/MPP Projects/Data Bases/Contest}
+19 Mar 2021 16:37:21,773 TRACE repository.EntriesRepository 112 findAll - Enter
+19 Mar 2021 16:37:21,773 TRACE utils.Jdbc 46 getConnection - Enter
+19 Mar 2021 16:37:21,773 TRACE utils.Jdbc 24 getNewConnection - Enter
+19 Mar 2021 16:37:21,774 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+19 Mar 2021 16:37:21,774 INFO  utils.Jdbc 30 getNewConnection - user: null
+19 Mar 2021 16:37:21,775 INFO  utils.Jdbc 31 getNewConnection - password: null
+19 Mar 2021 16:37:22,183 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+19 Mar 2021 16:37:22,186 TRACE repository.ChildRepository 30 findOne - Enter
+19 Mar 2021 16:37:22,186 TRACE utils.Jdbc 46 getConnection - Enter
+19 Mar 2021 16:37:22,186 TRACE utils.Jdbc 24 getNewConnection - Enter
+19 Mar 2021 16:37:22,186 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+19 Mar 2021 16:37:22,187 INFO  utils.Jdbc 30 getNewConnection - user: null
+19 Mar 2021 16:37:22,187 INFO  utils.Jdbc 31 getNewConnection - password: null
+19 Mar 2021 16:37:22,187 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8519cb4)
+19 Mar 2021 16:37:22,191 TRACE repository.ChildRepository 50 findOne - Exit with(1 Adrian 11)
+19 Mar 2021 16:37:22,192 TRACE repository.ChallengeRepository 60 findOne - Enter
+19 Mar 2021 16:37:22,192 TRACE utils.Jdbc 46 getConnection - Enter
+19 Mar 2021 16:37:22,192 TRACE utils.Jdbc 24 getNewConnection - Enter
+19 Mar 2021 16:37:22,192 INFO  utils.Jdbc 29 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/MPP Projects/Data Bases/Contest
+19 Mar 2021 16:37:22,192 INFO  utils.Jdbc 30 getNewConnection - user: null
+19 Mar 2021 16:37:22,192 INFO  utils.Jdbc 31 getNewConnection - password: null
+19 Mar 2021 16:37:22,193 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@68c9133c)
+19 Mar 2021 16:37:22,198 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+19 Mar 2021 16:37:22,200 TRACE repository.ChildRepository 30 findOne - Enter
+19 Mar 2021 16:37:22,200 TRACE utils.Jdbc 46 getConnection - Enter
+19 Mar 2021 16:37:22,201 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8519cb4)
+19 Mar 2021 16:37:22,201 TRACE repository.ChildRepository 50 findOne - Exit with(2 Marius 9)
+19 Mar 2021 16:37:22,201 TRACE repository.ChallengeRepository 60 findOne - Enter
+19 Mar 2021 16:37:22,201 TRACE utils.Jdbc 46 getConnection - Enter
+19 Mar 2021 16:37:22,202 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@68c9133c)
+19 Mar 2021 16:37:22,202 TRACE repository.ChallengeRepository 82 findOne - Exit with(1 9 11 9-11)
+19 Mar 2021 16:37:22,202 TRACE repository.ChildRepository 30 findOne - Enter
+19 Mar 2021 16:37:22,202 TRACE utils.Jdbc 46 getConnection - Enter
+19 Mar 2021 16:37:22,203 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8519cb4)
+19 Mar 2021 16:37:22,203 TRACE repository.ChildRepository 50 findOne - Exit with(4 Alin 12)
+19 Mar 2021 16:37:22,203 TRACE repository.ChallengeRepository 60 findOne - Enter
+19 Mar 2021 16:37:22,203 TRACE utils.Jdbc 46 getConnection - Enter
+19 Mar 2021 16:37:22,203 TRACE utils.Jdbc 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@68c9133c)
+19 Mar 2021 16:37:22,204 TRACE repository.ChallengeRepository 82 findOne - Exit with(2 12 14 12-14)
+19 Mar 2021 16:37:22,236 TRACE repository.EntriesRepository 131 findAll - Exit with([1 - 1 = Adrian 11 - 9 11 2021-03-17 19:07:43, 2 - 1 = Marius 9 - 9 11 2021-03-17 19:07:47, 4 - 2 = Alin 12 - 12 14 2021-03-17 17:23:12])

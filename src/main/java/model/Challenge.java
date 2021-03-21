@@ -65,4 +65,9 @@ public class Challenge extends Entity<Long>{
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return getId() + " " + minimumAge + " " + maximumAge + " " + name;
+    }
 }

@@ -46,4 +46,9 @@ public class Employee extends Entity<Long>{
     public void setPassword(String password) {
         this.password = password;
     }
+
+    @Override
+    public String toString() {
+        return getId() + " " + username + " " + password;
+    }
 }

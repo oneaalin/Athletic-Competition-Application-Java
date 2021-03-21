@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+   <children>
+      <GridPane layoutX="-14.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="600.8000000000001" minWidth="10.0" prefWidth="405.20000000000005" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="282.4" minHeight="10.0" prefHeight="282.4" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="233.4" minHeight="10.0" prefHeight="57.60000000000002" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="193.4000152587891" minHeight="10.0" prefHeight="20.399999999999977" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="193.4000152587891" minHeight="10.0" prefHeight="40.19999999999999" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" text="Login" GridPane.rowIndex="1" />
+            <Label text="Don`t have an account?" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" text="Register" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
