@@ -1,5 +1,6 @@
 package repository;
 
+import model.Challenge;
 import model.Child;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -22,6 +23,34 @@ public class ChildRepository implements IChildRepository{
     public ChildRepository(Properties properties){
         logger.info("Initializing Child Repository with properties: {}",properties);
         dbUtils = new Jdbc(properties);
+    }
+
+    @Override
+    public Child findByProperties(String name,int age) {
+
+        logger.traceEntry();
+        Connection connection = dbUtils.getConnection();
+        Child child = new Child("0",0);
+        try(PreparedStatement preparedStatement = connection.prepareStatement("select * from Child where name = ? and age = ?")){
+            preparedStatement.setString(1,name);
+            preparedStatement.setInt(2,age);
+            try(ResultSet result = preparedStatement.executeQuery()){
+                if(!result.isClosed()) {
+                    result.next();
+                    child.setName(name);
+                    child.setAge(age);
+                    Long id = Long.parseLong(Integer.toString(result.getInt("id")));
+                    child.setId(id);
+                }
+                else return null;
+            }
+        }catch (SQLException e){
+            logger.error(e);
+            System.err.println("Error DB " + e );
+        }
+        logger.traceExit(child);
+        return child;
+
     }
 
     @Override
@@ -88,15 +117,15 @@ public class ChildRepository implements IChildRepository{
             preparedStatement.setString(1,child.getName());
             preparedStatement.setInt(2,child.getAge());
             int result = preparedStatement.executeUpdate();
-            if(result != 1)
-                return child;
+            if(result == 1)
+                return null;
             logger.trace("Saved {} instances",result);
         }catch (SQLException e){
             logger.error(e);
             System.err.println("Error DB " + e);
         }
         logger.traceExit();
-        return null;
+        return child;
     }
 
     @Override

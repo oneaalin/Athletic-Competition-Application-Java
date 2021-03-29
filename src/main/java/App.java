@@ -11,14 +11,8 @@ public class App {
 
     public static void main(String[] args) {
 
-        Properties props = new Properties();
-        try {
-            props.load(new FileReader("bd.properties"));
-        } catch (IOException e) {
-            System.out.println("Cannot find bd.config " + e);
-        }
 
-        IChildRepository childRepo = new ChildRepository(props);
+        //IChildRepository childRepo = new ChildRepository(props);
 
         /*
         //childRepo.save(new Child("Alin",12));
@@ -39,7 +33,7 @@ public class App {
 
         System.out.println(childRepo.count());*/
 
-        IChallengeRepository challengeRepo = new ChallengeRepository(props);
+        //IChallengeRepository challengeRepo = new ChallengeRepository(props);
         /*
         //challengeRepo.save(new Challenge(6,8,"6-8"));
         //challengeRepo.delete(3l);
@@ -56,7 +50,7 @@ public class App {
 
         System.out.println(challengeRepo.count());*/
 
-        IEmployeesRepository employeesRepo = new EmployeesRepository(props);
+        //IEmployeesRepository employeesRepo = new EmployeesRepository(props);
         /*
         //employeesRepo.save(new Employee("marius","bicicleta"));
         employeesRepo.delete(3l);
@@ -74,7 +68,7 @@ public class App {
         System.out.println(employeesRepo.count());
         */
 
-        IEntriesRepository entriesRepo = new EntriesRepository(props, (ChildRepository) childRepo, (ChallengeRepository) challengeRepo);
+        //IEntriesRepository entriesRepo = new EntriesRepository(props, (ChildRepository) childRepo, (ChallengeRepository) challengeRepo);
         /*Child child = new Child("Alin",12);
         child.setId(4l);
         Challenge challenge = new Challenge(12,14,"12-14");
@@ -97,8 +91,10 @@ public class App {
 
         System.out.println(entriesRepo.count());*/
 
-        entriesRepo.findAll().forEach((Entry element)->{
-            System.out.println(element);});
+        //entriesRepo.findAll().forEach((Entry element)->{
+        //  System.out.println(element);});
+
+        AppFX.main(args);
 
     }
 }

@@ -121,15 +121,15 @@ public class ChallengeRepository implements IChallengeRepository{
             preparedStatement.setInt(2,challenge.getMaximumAge());
             preparedStatement.setString(3,challenge.getName());
             int result = preparedStatement.executeUpdate();
-            if(result != 1)
-                return challenge;
+            if(result == 1)
+                return null;
             logger.trace("Saved {} instances",result);
         }catch (SQLException e){
             logger.error(e);
             System.err.println("Error DB " + e);
         }
         logger.traceExit();
-        return null;
+        return challenge;
 
     }
 

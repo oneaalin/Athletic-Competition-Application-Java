@@ -116,15 +116,15 @@ public class EmployeesRepository implements IEmployeesRepository{
             preparedStatement.setString(1,employee.getUsername());
             preparedStatement.setString(2,employee.getPassword());
             int result = preparedStatement.executeUpdate();
-            if(result != 1)
-                return employee;
+            if(result == 1)
+                return null;
             logger.trace("Saved {} instances",result);
         }catch (SQLException e){
             logger.error(e);
             System.err.println("Error DB " + e);
         }
         logger.traceExit();
-        return null;
+        return employee;
 
     }
 

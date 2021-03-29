@@ -17,12 +17,12 @@ import java.util.Properties;
 public class EntriesRepository implements IEntriesRepository{
 
     private Jdbc dbUtils;
-    private ChildRepository childRepo;
-    private ChallengeRepository challengeRepo;
+    private IChildRepository childRepo;
+    private IChallengeRepository challengeRepo;
 
     private static final Logger logger = LogManager.getLogger();
 
-    public EntriesRepository(Properties properties,ChildRepository childRepo,ChallengeRepository challengeRepo){
+    public EntriesRepository(Properties properties, IChildRepository childRepo, IChallengeRepository challengeRepo){
         logger.info("Initializing Entries Repository with properties: {}",properties);
         dbUtils = new Jdbc(properties);
         this.childRepo = childRepo;
@@ -143,15 +143,15 @@ public class EntriesRepository implements IEntriesRepository{
             preparedStatement.setInt(2,entry.getId().getRight().intValue());
             preparedStatement.setTimestamp(3, Timestamp.valueOf(entry.getDate()));
             int result = preparedStatement.executeUpdate();
-            if(result != 1)
-                return entry;
+            if(result == 1)
+                return null;
             logger.trace("Saved {} instances",result);
         }catch (SQLException e){
             logger.error(e);
             System.err.println("Error DB " + e);
         }
         logger.traceExit();
-        return null;
+        return entry;
 
     }
 
