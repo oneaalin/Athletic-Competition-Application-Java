@@ -1,2 +1,8 @@
 rootProject.name = 'Contest'
+include 'ChatModel'
+include 'ChatPersistence'
+include 'ChatServices'
+include 'ChatServer'
+include 'ChatNetworking'
+include 'ChatClientFX'
 

@@ -9,6 +9,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ChatClientFX" />
+            <option value="$PROJECT_DIR$/ChatModel" />
+            <option value="$PROJECT_DIR$/ChatNetworking" />
+            <option value="$PROJECT_DIR$/ChatPersistence" />
+            <option value="$PROJECT_DIR$/ChatServer" />
+            <option value="$PROJECT_DIR$/ChatServices" />
           </set>
         </option>
       </GradleProjectSettings>
