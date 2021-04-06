@@ -1,0 +1,16 @@
+chat/model/Employee.java
+ chat.model.Employee
+chat/model/Entity.java
+ chat.model.Entity
+chat/model/Tuple.java
+ chat.model.Tuple
+chat/model/Child.java
+ chat.model.Child
+chat/model/ChallengeDTO.java
+ chat.model.ChallengeDTO
+chat/model/ChildDTO.java
+ chat.model.ChildDTO
+chat/model/Challenge.java
+ chat.model.Challenge
+chat/model/Entry.java
+ chat.model.Entry

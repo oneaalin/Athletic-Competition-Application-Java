@@ -1,0 +1,22 @@
+chat/persistence/utils/Jdbc.java
+ chat.persistence.utils.Jdbc
+chat/persistence/utils/JdbcProps.java
+ chat.persistence.utils.JdbcProps
+chat/persistence/IEmployeesRepository.java
+ chat.persistence.IEmployeesRepository
+chat/persistence/IRepository.java
+ chat.persistence.IRepository
+chat/persistence/EmployeesRepository.java
+ chat.persistence.EmployeesRepository
+chat/persistence/IEntriesRepository.java
+ chat.persistence.IEntriesRepository
+chat/persistence/IChildRepository.java
+ chat.persistence.IChildRepository
+chat/persistence/IChallengeRepository.java
+ chat.persistence.IChallengeRepository
+chat/persistence/ChallengeRepository.java
+ chat.persistence.ChallengeRepository
+chat/persistence/ChildRepository.java
+ chat.persistence.ChildRepository
+chat/persistence/EntriesRepository.java
+ chat.persistence.EntriesRepository

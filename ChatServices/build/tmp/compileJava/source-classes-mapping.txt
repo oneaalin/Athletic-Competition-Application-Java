@@ -1,0 +1,6 @@
+chat/service/ValidationException.java
+ chat.service.ValidationException
+chat/service/IObserver.java
+ chat.service.IObserver
+chat/service/IService.java
+ chat.service.IService
