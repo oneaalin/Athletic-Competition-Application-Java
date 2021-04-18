@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
+import java.rmi.RemoteException;
 import java.util.List;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -199,7 +200,7 @@ public class ServiceRpcProxy implements IService {
             List<ChallengeDTO> challenges = update.getChallenges();
             try{
                 client.updateChildren(child,challenges);
-            }catch (ValidationException e){
+            }catch (ValidationException | RemoteException e){
                 e.printStackTrace();
             }
         }

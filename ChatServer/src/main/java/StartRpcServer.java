@@ -4,6 +4,8 @@ import chat.network.utils.ServerException;
 import chat.persistence.*;
 import chat.server.Service;
 import chat.service.IService;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -13,7 +15,7 @@ public class StartRpcServer {
     private static int defaultPort = 55555;
 
     public static void main(String[] args){
-        Properties serverProps = new Properties();
+        /*Properties serverProps = new Properties();
         try{
             serverProps.load(StartRpcServer.class.getResourceAsStream("/server.properties"));
             System.out.println("Server properties set ! ");
@@ -46,7 +48,9 @@ public class StartRpcServer {
             }catch(ServerException e){
                 System.err.println("Error stopping server " + e.getMessage());
             }
-        }
+        }*/
+
+        ApplicationContext factory = new ClassPathXmlApplicationContext("classpath:spring-server.xml");
     }
 
 }

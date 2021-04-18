@@ -23,12 +23,18 @@ import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
 import java.io.IOException;
+import java.io.Serializable;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class MainController implements IObserver {
+public class MainController extends UnicastRemoteObject implements IObserver , Serializable {
+
+    public MainController() throws RemoteException {
+    }
 
     @Override
     public void updateChildren(ChildDTO child , List<ChallengeDTO> challenges) {

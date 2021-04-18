@@ -13,8 +13,10 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 
-public class RegisterController {
+public class RegisterController extends UnicastRemoteObject {
 
     @FXML
     TextField usernameField;
@@ -26,6 +28,9 @@ public class RegisterController {
 
     private IService service;
     Stage stage;
+
+    public RegisterController() throws RemoteException {
+    }
 
     public void initialize(IService service, Stage stage){
 

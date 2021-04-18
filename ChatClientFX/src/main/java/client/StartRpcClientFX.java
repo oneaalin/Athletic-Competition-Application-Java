@@ -9,6 +9,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -20,7 +22,7 @@ public class StartRpcClientFX extends Application {
 
     public void start(Stage primaryStage) throws IOException {
 
-        Properties clientProperties = new Properties();
+        /*Properties clientProperties = new Properties();
         try{
             clientProperties.load(StartRpcClientFX.class.getResourceAsStream("/client.properties"));
             System.out.println("Client properties set ! ");
@@ -42,6 +44,10 @@ public class StartRpcClientFX extends Application {
         System.out.println("Using server port " + serverPort);
 
         IService server = new ServiceRpcProxy(serverIP,serverPort);
+        */
+
+        ApplicationContext factory = new ClassPathXmlApplicationContext("classpath:spring-client.xml");
+        IService server=(IService) factory.getBean("service");
 
         FXMLLoader loader = new FXMLLoader(getClass().getClassLoader().getResource("/views/LoginView.fxml"));
         loader.setLocation(getClass().getResource("/views/LoginView.fxml"));

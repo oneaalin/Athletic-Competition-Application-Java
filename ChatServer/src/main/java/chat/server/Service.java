@@ -9,6 +9,7 @@ import chat.service.IObserver;
 import chat.service.IService;
 import chat.service.ValidationException;
 
+import java.rmi.RemoteException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.time.LocalDateTime;
@@ -194,7 +195,7 @@ public class Service implements IService {
             executor.execute(() -> {
                 try {
                     entry.getValue().updateChildren(childDTO,getAllChallenges());
-                } catch(ValidationException e){
+                } catch(ValidationException | RemoteException e){
                     e.printStackTrace();
                 }
             });

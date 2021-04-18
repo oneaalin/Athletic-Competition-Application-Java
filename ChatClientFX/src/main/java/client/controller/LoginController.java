@@ -16,8 +16,11 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.io.Serializable;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 
-public class LoginController {
+public class LoginController extends UnicastRemoteObject implements Serializable {
 
     @FXML
     private TextField usernameField;
@@ -33,6 +36,9 @@ public class LoginController {
     IService server;
 
     Stage stage;
+
+    public LoginController() throws RemoteException {
+    }
 
     public void setMainParent(Parent mainParent) {
         this.mainParent = mainParent;

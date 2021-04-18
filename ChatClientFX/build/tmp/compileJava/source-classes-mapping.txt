@@ -1,7 +1,7 @@
-client/controller/RegisterController.java
- client.controller.RegisterController
 client/MainClient.java
  client.MainClient
+client/controller/RegisterController.java
+ client.controller.RegisterController
 client/controller/MainController.java
  client.controller.MainController
  client.controller.MainController$1

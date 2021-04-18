@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:properties id="dbProperties" location="classpath:/server.properties" />
+
+    <bean id="childRepo" class="chat.persistence.ChildRepository">
+        <constructor-arg ref="dbProperties"/>
+    </bean>
+    <bean id="challengeRepo" class="chat.persistence.ChallengeRepository">
+        <constructor-arg ref="dbProperties"/>
+    </bean>
+    <bean id="employeesRepo" class="chat.persistence.EmployeesRepository">
+        <constructor-arg ref="dbProperties"/>
+    </bean>
+    <bean id="entriesRepo" class="chat.persistence.EntriesRepository">
+        <constructor-arg ref="dbProperties"/>
+        <constructor-arg ref="childRepo"/>
+        <constructor-arg ref="challengeRepo"/>
+    </bean>
+
+    <bean id="service" class="chat.server.Service">
+        <constructor-arg ref="childRepo"/>
+        <constructor-arg ref="challengeRepo"/>
+        <constructor-arg ref="employeesRepo"/>
+        <constructor-arg ref="entriesRepo"/>
+    </bean>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+
+        <property name="serviceName" value="Contest"/>
+        <property name="service" ref="service"/>
+        <property name="serviceInterface" value="chat.service.IService"/>
+        <property name="servicePort" value="1099"/>
+    </bean>
+
+
+
+</beans>
